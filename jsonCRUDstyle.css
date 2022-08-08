@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nameFeild, .classFeild, .marksFeild{
+    font-size: 18px;
+    font-weight: 600;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+}
+h1.heading{
+    background-color: #066198;
+    /* background-color: #0871b3; */
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+table input[type="text"]{
+    width: 100%;
+    height: 36px;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    padding: 1px 5px;
+    margin: 5px 0px;
+}
+table{
+    padding: 10px;
+}
+table td {
+    padding: 5px;
+}
+table td input[type="submit"] {
+    width: 96px;
+    background-color: #24a0ed;
+    color: white;
+    font-weight: 600;
+    border:none;
+    border-radius: 3px;
+    padding: 8px 10px ;
+    transition: all 0.5s ;
+    cursor: pointer;
+}
+table td input[type="submit"].update {
+    width: 96px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 600;
+    border:none;
+    border-radius: 3px;
+    padding: 8px 10px ;
+    transition: all 0.5s ;
+    cursor: pointer;
+}
+table td input[type="submit"]:hover {
+    background-color: #1690db;
+    box-shadow: 1px 2px 6px rgba(107, 107, 107, 0.3);
+
+    transform: scale(1.05);
+}
+table td input[type="submit"].update:hover {
+    background-color: #319734;
+    box-shadow: 1px 2px 6px rgba(107, 107, 107, 0.3);
+
+    transform: scale(1.05);
+}
+table td button.reset {
+    width: 96px;
+    background-color: #ffc107;
+    border:none;
+    border-radius: 3px;
+    padding: 8px 10px ;
+    transition: all 0.5s ;
+    cursor: pointer;
+}
+table td button.reset a{
+    color: black;
+    font-size: 13.33px;
+    font-weight: 600;
+}
+
+table td button.reset:hover {
+    background-color: #ffc107;
+    box-shadow: 1px 2px 6px rgba(107, 107, 107, 0.3);
+    transform: scale(1.05);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    border-top: 2px solid #cfcfcf;
+    width: 100%;
+}
+.dataContainer{
+    width: 100%;
+}
+.felidTable{
+    margin: 30px auto;
+    border: 2px solid #cfcfcf;
+    border-radius: 5px;
+    padding: 30px 20px;
+    align-items: center;
+}
+.felidTable td{
+    padding: 10px 5px;
+    width: 100%;
+}
+.displayData{
+    text-align: center;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+.displayData td{
+    width: 16.66%;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 18px;
+}
+.displayData th{
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 18px;
+}
+.displayData td button{
+    width: 70%;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+.displayData td button.delete a{
+    text-decoration: none;
+    color: #D11A2A;
+    font-weight: 600;
+    font-size: 14px;
+}
+.displayData td button a i{
+    margin-right: 10px;
+}
+.displayData td button.edit a{
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: 600;
+    font-size: 14px;
+}
+.displayData td button.delete{
+    background-color: transparent ;
+    border: 2px solid #D11A2A;
+    transition: all 0.5s;
+    border-radius: 50px;
+    
+}
+.displayData td button.edit{
+    background-color: transparent ;
+    border: 2px solid #4CAF50;
+    transition: all 0.5s;
+    border-radius: 50px;
+
+}
+.displayData td .delete:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 4px #D11A2A62;
+    
+}
+.displayData td .edit:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 4px #4caf4f62;
+
+}
